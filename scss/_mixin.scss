@@ -1,0 +1,32 @@
+@mixin reset-nav {
+  ul {
+    padding: 0;
+  }
+
+  ul > li {
+    list-style: none;
+  }
+
+  ul > li > a {
+    text-decoration: none;
+  }
+}
+
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}

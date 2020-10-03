@@ -1,0 +1,32 @@
+@import "mixin";
+
+
+//Fonts variables
+$fonts : (
+  (family: "NotoSansKR", weight: 400, style: normal, filename: "NotoSansKR"),
+  (family: "NotoSansKR", weight: 700, style: normal, filename: "NotoSansKR"),
+);
+
+@each $font in ($fonts) {
+  @font-face {
+      font-family: map-get($font, family);
+      font-weight: map-get($font, weight);
+      font-style: map-get($font, style);
+      src: local("#{map-get($font, filename)}-Regular"),
+           local("#{map-get($font, filename)} Regular"),
+           local("#{map-get($font, filename)}-Bold"),
+           local("#{map-get($font, filename)} Bold"),
+           url('../fonts/#{map-get($font, filename)}-Thin.woff') format("woff"),
+           url('../fonts/#{map-get($font, filename)}-Regular.woff2') format("woff2");
+  };
+};
+
+//image function variables
+@function img($filename) {
+  @return url("../img/#{$filename}");
+};
+
+
+//color variables
+$primary-color: #0000ff;
+$text-hd-color: #ffffffff;
