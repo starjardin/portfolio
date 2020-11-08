@@ -1,0 +1,100 @@
+/* importing files */
+@font-face {
+  font-family: 'Lato';
+  font-weight: 700;
+  src: url("/Lato-Bold.ba8ef853.woff2") format(woff2), url("/Lato-Bold.2fc4e34a.woff") format(woff); }
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  src: url("/Lato-Regular.e84c100a.woff2") format(woff2), url("/Lato-Regular.77f18365.woff") format(woff); }
+
+.site_logo__heading {
+  text-align: center;
+  padding-block-end: 4rem; }
+
+.main-header__heading {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  padding-block-end: 2rem; }
+
+:root {
+  --side-padding: calc((360px - 320px) / 2); }
+
+body {
+  background-color: #F4F6F9;
+  margin: auto;
+  text-align: center; }
+
+li {
+  list-style: none;
+  margin: 0; }
+
+.apps-list {
+  max-width: 360px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0; }
+
+.latest-info {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  padding-block-end: 3rem; }
+
+.latest-info {
+  max-width: 453px;
+  text-align: center; }
+
+.main-header__heading {
+  max-width: 532px;
+  text-align: center; }
+
+@media (min-width: 1114px) {
+  .latest-info,
+  .main-header__heading,
+  .site_logo__heading {
+    text-align: center; }
+  .site_logo__heading {
+    text-align: start; }
+  .latest-info {
+    max-width: 453px;
+    text-align: start; }
+  .main-header__heading {
+    max-width: 532px;
+    text-align: start; }
+  .wrapper {
+    max-width: 550px; }
+  .container {
+    max-width: 1114px;
+    margin: auto;
+    max-height: 100%; }
+  header {
+    background-image: url("/bg_header.666587ab.png");
+    background-repeat: no-repeat;
+    background-position: calc(50vw - 11px) 270%;
+    padding-block-start: 1rem;
+    padding-block-end: 10rem; } }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+/* Tablet or desktop mode */
+@media (min-width: 360px) {
+  footer {
+    justify-content: flex-start; } }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+
+/*# sourceMappingURL=/css.e5aa8a12.css.map */
