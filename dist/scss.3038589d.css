@@ -343,5 +343,20 @@ header a:hover {
     text-align: start;
   }
 }
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.experiment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  display: none;
+}
 
 /*# sourceMappingURL=/scss.3038589d.css.map */
