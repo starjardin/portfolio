@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\webroot\\fonts\\NotoSansKR-Thin.woff":[["NotoSansKR-Thin.1d4da56c.woff","fonts/NotoSansKR-Thin.woff"],"fonts/NotoSansKR-Thin.woff"],"./..\\webroot\\fonts\\NotoSansKR-Regular.woff2":[["NotoSansKR-Regular.df47e7a2.woff2","fonts/NotoSansKR-Regular.woff2"],"fonts/NotoSansKR-Regular.woff2"],"./..\\webroot\\img\\icon_menu.svg":[["icon_menu.f0eb87a7.svg","img/icon_menu.svg"],"img/icon_menu.svg"],"./..\\webroot\\img\\icon_twitter.svg":[["icon_twitter.1cda945e.svg","img/icon_twitter.svg"],"img/icon_twitter.svg"],"./..\\webroot\\img\\icon_facebook.svg":[["icon_facebook.09a65f46.svg","img/icon_facebook.svg"],"img/icon_facebook.svg"],"./..\\webroot\\img\\icon_instagram.svg":[["icon_instagram.b5ca0c3b.svg","img/icon_instagram.svg"],"img/icon_instagram.svg"],"_css_loader":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\webroot\\fonts\\Poppins-400.woff":[["Poppins-400.e935a4bb.woff","fonts/Poppins-400.woff"],"fonts/Poppins-400.woff"],"./..\\webroot\\fonts\\Poppins-300.woff":[["Poppins-300.af955319.woff","fonts/Poppins-300.woff"],"fonts/Poppins-300.woff"],"./..\\webroot\\fonts\\Poppins-500.woff":[["Poppins-500.6db15a2e.woff","fonts/Poppins-500.woff"],"fonts/Poppins-500.woff"],"./..\\webroot\\fonts\\Poppins-Black.woff":[["Poppins-Black.ab7e5651.woff","fonts/Poppins-Black.woff"],"fonts/Poppins-Black.woff"],"./..\\webroot\\fonts\\Poppins-400.woff2":[["Poppins-400.e54b5641.woff2","fonts/Poppins-400.woff2"],"fonts/Poppins-400.woff2"],"./..\\webroot\\fonts\\Poppins-300.woff2":[["Poppins-300.36d95eb5.woff2","fonts/Poppins-300.woff2"],"fonts/Poppins-300.woff2"],"./..\\webroot\\fonts\\Poppins-500.woff2":[["Poppins-500.7026f120.woff2","fonts/Poppins-500.woff2"],"fonts/Poppins-500.woff2"],"./..\\webroot\\fonts\\Poppins-Black.woff2":[["Poppins-Black.88cd5be7.woff2","fonts/Poppins-Black.woff2"],"fonts/Poppins-Black.woff2"],"./..\\webroot\\img\\icon_menu.svg":[["icon_menu.f0eb87a7.svg","img/icon_menu.svg"],"img/icon_menu.svg"],"./..\\webroot\\img\\icon_twitter.svg":[["icon_twitter.1cda945e.svg","img/icon_twitter.svg"],"img/icon_twitter.svg"],"./..\\webroot\\img\\icon_facebook.svg":[["icon_facebook.09a65f46.svg","img/icon_facebook.svg"],"img/icon_facebook.svg"],"./..\\webroot\\img\\icon_instagram.svg":[["icon_instagram.b5ca0c3b.svg","img/icon_instagram.svg"],"img/icon_instagram.svg"],"_css_loader":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62912" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50602" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

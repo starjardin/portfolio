@@ -1,25 +1,27 @@
 @font-face {
-  font-family: "NotoSansKR";
-  font-weight: 400;
-  font-style: normal;
-  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("/NotoSansKR-Thin.1d4da56c.woff") format("woff"), url("/NotoSansKR-Regular.df47e7a2.woff2") format("woff2");
-}
-@font-face {
-  font-family: "NotoSansKR";
+  font-family: "Poppins";
   font-weight: 700;
   font-style: normal;
-  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("/NotoSansKR-Thin.1d4da56c.woff") format("woff"), url("/NotoSansKR-Regular.df47e7a2.woff2") format("woff2");
+  src: local("Poppins-Regular"), url("/Poppins-400.e935a4bb.woff") format("woff"), url("/Poppins-300.af955319.woff") format("woff"), url("/Poppins-500.6db15a2e.woff") format("woff"), url("/Poppins-Black.ab7e5651.woff") format("woff"), url("/Poppins-400.e54b5641.woff2") format("woff2"), url("/Poppins-300.36d95eb5.woff2") format("woff2"), url("/Poppins-500.7026f120.woff2") format("woff2"), url("/Poppins-Black.88cd5be7.woff2") format("woff2");
 }
-h1 {
-  font-family: "NotoSnasKR";
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Poppins-Regular"), url("/Poppins-400.e935a4bb.woff") format("woff"), url("/Poppins-300.af955319.woff") format("woff"), url("/Poppins-500.6db15a2e.woff") format("woff"), url("/Poppins-Black.ab7e5651.woff") format("woff"), url("/Poppins-400.e54b5641.woff2") format("woff2"), url("/Poppins-300.36d95eb5.woff2") format("woff2"), url("/Poppins-500.7026f120.woff2") format("woff2"), url("/Poppins-Black.88cd5be7.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Poppins-Regular"), url("/Poppins-400.e935a4bb.woff") format("woff"), url("/Poppins-300.af955319.woff") format("woff"), url("/Poppins-500.6db15a2e.woff") format("woff"), url("/Poppins-Black.ab7e5651.woff") format("woff"), url("/Poppins-400.e54b5641.woff2") format("woff2"), url("/Poppins-300.36d95eb5.woff2") format("woff2"), url("/Poppins-500.7026f120.woff2") format("woff2"), url("/Poppins-Black.88cd5be7.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
   font-weight: 400;
   font-style: normal;
+  src: local("Poppins-Regular"), url("/Poppins-400.e935a4bb.woff") format("woff"), url("/Poppins-300.af955319.woff") format("woff"), url("/Poppins-500.6db15a2e.woff") format("woff"), url("/Poppins-Black.ab7e5651.woff") format("woff"), url("/Poppins-400.e54b5641.woff2") format("woff2"), url("/Poppins-300.36d95eb5.woff2") format("woff2"), url("/Poppins-500.7026f120.woff2") format("woff2"), url("/Poppins-Black.88cd5be7.woff2") format("woff2");
 }
-
-body {
-  font-family: "NotoSnasKR";
-}
-
 html {
   margin: 0;
 }
@@ -27,25 +29,13 @@ html {
 body {
   background-color: #eeeeee;
   margin: 0;
-  font-family: "NotoSansKR";
+  font-family: "Poppins";
 }
 
 @media (min-width: 720px) {
   body > * {
     padding: 1rem;
   }
-}
-@font-face {
-  font-family: "NotoSansKR";
-  font-weight: 400;
-  font-style: normal;
-  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("/NotoSansKR-Thin.1d4da56c.woff") format("woff"), url("/NotoSansKR-Regular.df47e7a2.woff2") format("woff2");
-}
-@font-face {
-  font-family: "NotoSansKR";
-  font-weight: 700;
-  font-style: normal;
-  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("/NotoSansKR-Thin.1d4da56c.woff") format("woff"), url("/NotoSansKR-Regular.df47e7a2.woff2") format("woff2");
 }
 .header {
   position: relative;
@@ -162,18 +152,6 @@ header a:hover {
   .menu {
     display: none;
   }
-}
-@font-face {
-  font-family: "NotoSansKR";
-  font-weight: 400;
-  font-style: normal;
-  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("/NotoSansKR-Thin.1d4da56c.woff") format("woff"), url("/NotoSansKR-Regular.df47e7a2.woff2") format("woff2");
-}
-@font-face {
-  font-family: "NotoSansKR";
-  font-weight: 700;
-  font-style: normal;
-  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("/NotoSansKR-Thin.1d4da56c.woff") format("woff"), url("/NotoSansKR-Regular.df47e7a2.woff2") format("woff2");
 }
 .header_menu ul,
 .footer_navigation ul {
@@ -353,10 +331,6 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-body {
-  display: none;
 }
 
 /*# sourceMappingURL=/scss.3038589d.css.map */
