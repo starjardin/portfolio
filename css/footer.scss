@@ -1,0 +1,21 @@
+.footer {
+  padding-block: 4rem;
+  border-top: 1px solid #111111;
+  line-height: 32px;
+}
+
+.mail > a {
+  border-radius: 5px;
+  border: 1px solid #ab2537fa;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+  min-width: 10rem;
+  transition: all .25s ease;
+}
+
+.mail > a:hover {
+  transform: scale(1.1);
+}

@@ -1,6 +1,11 @@
+:root {
+  --font-size: 10px;
+}
+
 html {
   color: #000;
-  min-width: 100vh;
+  background-color: fffffe;
+  font-size: --var(--font-size);
 }
 
 body {
