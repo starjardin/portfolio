@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Poppins-Regular"), url("/Poppins-400.e935a4bb.woff") format("woff"), url("/Poppins-300.af955319.woff") format("woff"), url("/Poppins-500.6db15a2e.woff") format("woff"), url("/Poppins-Black.ab7e5651.woff") format("woff"), url("/Poppins-400.e54b5641.woff2") format("woff2"), url("/Poppins-300.36d95eb5.woff2") format("woff2"), url("/Poppins-500.7026f120.woff2") format("woff2"), url("/Poppins-Black.88cd5be7.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Poppins-Regular"), url("/Poppins-400.e935a4bb.woff") format("woff"), url("/Poppins-300.af955319.woff") format("woff"), url("/Poppins-500.6db15a2e.woff") format("woff"), url("/Poppins-Black.ab7e5651.woff") format("woff"), url("/Poppins-400.e54b5641.woff2") format("woff2"), url("/Poppins-300.36d95eb5.woff2") format("woff2"), url("/Poppins-500.7026f120.woff2") format("woff2"), url("/Poppins-Black.88cd5be7.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Poppins-Regular"), url("/Poppins-400.e935a4bb.woff") format("woff"), url("/Poppins-300.af955319.woff") format("woff"), url("/Poppins-500.6db15a2e.woff") format("woff"), url("/Poppins-Black.ab7e5651.woff") format("woff"), url("/Poppins-400.e54b5641.woff2") format("woff2"), url("/Poppins-300.36d95eb5.woff2") format("woff2"), url("/Poppins-500.7026f120.woff2") format("woff2"), url("/Poppins-Black.88cd5be7.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Poppins-Regular"), url("/Poppins-400.e935a4bb.woff") format("woff"), url("/Poppins-300.af955319.woff") format("woff"), url("/Poppins-500.6db15a2e.woff") format("woff"), url("/Poppins-Black.ab7e5651.woff") format("woff"), url("/Poppins-400.e54b5641.woff2") format("woff2"), url("/Poppins-300.36d95eb5.woff2") format("woff2"), url("/Poppins-500.7026f120.woff2") format("woff2"), url("/Poppins-Black.88cd5be7.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Heebo";
+  src: url(/Heebo-800.5a6ed6b6.woff) format("woff"), url(/Heebo-800.f8706882.woff2) format("woff2");
+}
+a {
+  text-decoration: none;
+}
+
+.nav-container {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-lists {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+  padding-right: 2rem;
+}
+.nav-lists li {
+  list-style: none;
+}
+
+html {
+  color: #000;
+  min-width: 100vh;
+}
+
+body {
+  border: 8px solid #000;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/*# sourceMappingURL=/css.81192ade.css.map */

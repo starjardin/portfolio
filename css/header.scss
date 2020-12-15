@@ -1,0 +1,22 @@
+@import "mixins";
+@import "variables";
+
+a {
+  text-decoration: $text-decoration;
+}
+
+.nav-container {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  @include flex-row;
+  justify-content: space-between;
+}
+
+.nav-lists {
+  @include  flex-row;
+  gap : 3rem;
+  li {
+    list-style: none;
+  }
+  padding-right: 2rem;
+}
