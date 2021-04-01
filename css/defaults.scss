@@ -1,0 +1,44 @@
+@import "variables.scss";
+
+:root {
+  --font-size: 10px;
+}
+
+html {
+  color: #000;
+  background-color: fffffe;
+  font-size: --var(--font-size);
+}
+
+body {
+  border: 8px solid #000;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.section__desc {
+  max-width: $projects-width;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 920px) {
+  body {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  body {
+    padding: 15px;
+  }
+}

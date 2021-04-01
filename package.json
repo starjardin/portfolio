@@ -1,5 +1,22 @@
 {
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index..js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starjardin/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starjardin/portfolio/issues"
+  },
+  "homepage": "https://github.com/starjardin/portfolio#readme",
   "devDependencies": {
-    "sass": "^1.29.0"
+    "sass": "^1.30.0"
   }
 }
