@@ -16,22 +16,35 @@
 
 .card-project {
   height: 170px;
-  background-color: #cccccc;
+  background-color: #F0EEEF;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   padding-bottom: 3rem;
   margin: 1rem 0;
+  img {
+    width: 20%;
+    height: 20%;
+  }
 }
 
 .see-project {
   opacity: 0;
   border: 1px solid #ab2537fa;
-  padding: 1em 1.5em;
+  padding: 10px 10px;
   background-image: url('../icons/arrow-narrow-right.svg');
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 3rem;
+  background-size: 50% 50%;
+  font-size: 12px;
 }
 
 .project-list:hover {
   .card-project {
     position: relative;
-    background-color: #000;
+    background-color: #302F30;
   }
   
   .link-container {

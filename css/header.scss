@@ -1,9 +1,24 @@
 @import "mixins";
 @import "variables";
 
+.masthead__heading {
+  max-width: $projects-width;
+  margin: auto;
+  margin-bottom: 65px;
+}
+
 .main__heading {
-  margin-bottom: 0px;
+  margin-block: 0px;
   padding-bottom: 67px;
+  max-width: $projects-width;
+  margin: auto;
+}
+
+.site-logo {
+  width: 38px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -32,8 +47,8 @@ a:visited {
 }
 
 .nav-container {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 30px;
+  padding-bottom: 80px;
   @include flex-row;
   justify-content: space-between;
   display: flex

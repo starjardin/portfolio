@@ -47,9 +47,44 @@ body {
   margin: auto;
 }
 
+.section__desc {
+  max-width: 535px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 920px) {
+  body {
+    padding: 30px;
+  }
+}
+@media (max-width: 520px) {
+  body {
+    padding: 15px;
+  }
+}
+.masthead__heading {
+  max-width: 535px;
+  margin: auto;
+  margin-bottom: 65px;
+}
+
 .main__heading {
-  margin-bottom: 0px;
+  margin-block: 0px;
   padding-bottom: 67px;
+  max-width: 535px;
+  margin: auto;
+}
+
+.site-logo {
+  width: 38px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -79,8 +114,8 @@ a:visited {
 }
 
 .nav-container {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 30px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
@@ -119,21 +154,34 @@ a:visited {
 
 .card-project {
   height: 170px;
-  background-color: #cccccc;
+  background-color: #F0EEEF;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   padding-bottom: 3rem;
   margin: 1rem 0;
+}
+.card-project img {
+  width: 20%;
+  height: 20%;
 }
 
 .see-project {
   opacity: 0;
   border: 1px solid #ab2537fa;
-  padding: 1em 1.5em;
+  padding: 10px 10px;
   background-image: url("/arrow-narrow-right.7b1b8e5f.svg");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 3rem;
+  background-size: 50% 50%;
+  font-size: 12px;
 }
 
 .project-list:hover .card-project {
   position: relative;
-  background-color: #000;
+  background-color: #302F30;
 }
 .project-list:hover .link-container {
   transition: 0.3s;
@@ -162,12 +210,17 @@ a:visited {
   border-radius: 5px;
   border: 1px solid #ab2537fa;
   padding: 1rem 1.5rem;
+  padding-right: 55px;
   display: inline-block;
   font-size: 1.5rem;
   margin: 0 1rem;
   margin-bottom: 1rem;
   min-width: 10rem;
   transition: all 0.25s ease;
+  background-image: url("/arrow-narrow-right-black.84cb72a4.svg");
+  background-position: 100% center;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .mail > a:hover {
