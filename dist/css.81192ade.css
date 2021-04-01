@@ -26,6 +26,45 @@
   font-family: "Heebo";
   src: url(/Heebo-800.5a6ed6b6.woff) format("woff"), url(/Heebo-800.f8706882.woff2) format("woff2");
 }
+:root {
+  --font-size: 10px;
+}
+
+html {
+  color: #000;
+  background-color: fffffe;
+  font-size: --var(--font-size);
+}
+
+body {
+  border: 8px solid #000;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.main__heading {
+  margin-bottom: 0px;
+  padding-bottom: 67px;
+}
+
+main {
+  position: relative;
+}
+
+.main__header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: solid 1px #ccc;
+  position: absolute;
+  left: 0;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -64,26 +103,59 @@ a:visited {
   list-style: none;
 }
 
-:root {
-  --font-size: 10px;
+.project-lists {
+  padding: 0;
 }
 
-html {
-  color: #000;
-  background-color: fffffe;
-  font-size: --var(--font-size);
+.project-list {
+  list-style: none;
+  transition: 0.5s;
 }
 
-body {
-  border: 8px solid #000;
-  margin: 0;
-  font-family: "Poppins";
+.project-section {
+  max-width: 535px;
+  margin: auto;
+}
+
+.card-project {
+  height: 170px;
+  background-color: #cccccc;
+  padding-bottom: 3rem;
+  margin: 1rem 0;
+}
+
+.see-project {
+  opacity: 0;
+  border: 1px solid #ab2537fa;
+  padding: 1em 1.5em;
+  background-image: url("/arrow-narrow-right.7b1b8e5f.svg");
+}
+
+.project-list:hover .card-project {
+  position: relative;
+  background-color: #000;
+}
+.project-list:hover .link-container {
+  transition: 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.project-list:hover .see-project {
+  color: #fff;
+  opacity: 1;
 }
 
 .footer {
   padding-block: 4rem;
   border-top: 1px solid #111111;
   line-height: 32px;
+  text-align: center;
 }
 
 .mail > a {

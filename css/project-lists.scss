@@ -1,0 +1,53 @@
+@import 'variables.scss';
+
+.project-lists {
+  padding: 0;
+}
+
+.project-list {
+  list-style: none;
+  transition: .5s;
+}
+
+.project-section {
+  max-width: $projects-width;
+  margin: auto;
+}
+
+.card-project {
+  height: 170px;
+  background-color: #cccccc;
+  padding-bottom: 3rem;
+  margin: 1rem 0;
+}
+
+.see-project {
+  opacity: 0;
+  border: 1px solid #ab2537fa;
+  padding: 1em 1.5em;
+  background-image: url('../icons/arrow-narrow-right.svg');
+}
+
+.project-list:hover {
+  .card-project {
+    position: relative;
+    background-color: #000;
+  }
+  
+  .link-container {
+    transition: .3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .see-project {
+    color: #fff;
+    opacity: 1;
+  }
+}

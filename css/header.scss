@@ -1,6 +1,24 @@
 @import "mixins";
 @import "variables";
 
+.main__heading {
+  margin-bottom: 0px;
+  padding-bottom: 67px;
+}
+
+main {
+  position: relative;
+}
+
+.main__header::after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: solid 1px #ccc;
+  position: absolute;
+  left: 0;
+}
+
 a {
   text-decoration: $text-decoration;
   color: #000;
