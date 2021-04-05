@@ -74,6 +74,14 @@ img {
   display: flex;
   align-items: center;
 }
+.masthead__heading picture {
+  width: 9rem;
+  height: 9rem;
+}
+.masthead__heading picture img {
+  width: 100%;
+  height: 100%;
+}
 
 .main__heading {
   margin-block: 0px;
