@@ -71,16 +71,51 @@ img {
   max-width: 535px;
   margin: auto;
   margin-bottom: 65px;
-  display: flex;
-  align-items: center;
 }
-.masthead__heading picture {
-  width: 9rem;
-  height: 9rem;
+.masthead__heading img {
+  border-radius: 50%;
 }
-.masthead__heading picture img {
-  width: 100%;
-  height: 100%;
+
+.header-container ul {
+  transform: translateX(-220%);
+  transition: 0.5s;
+  position: fixed;
+  width: 30vw;
+  background-color: blue;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  margin: 0;
+}
+.header-container [for=menu] {
+  order: 3;
+  background-image: url("/menu.3c813992.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.header-container [for=menu] span {
+  visibility: hidden;
+}
+.header-container #menu {
+  visibility: collapse;
+}
+.header-container #menu:checked ~ ul {
+  transform: none;
+}
+.header-container #menu:checked ~ label {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-image: url("/close.1a8adba6.svg");
+  background-position-x: 92%;
+  background-size: 2rem;
+  background-position-y: 2%;
 }
 
 .main__heading {
@@ -137,18 +172,45 @@ a:visited {
 }
 
 .nav-lists {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 3rem;
   padding-right: 2rem;
 }
 .nav-lists li {
   list-style: none;
+  margin-block: 1rem;
+  padding-block: 1rem;
 }
 
+@media (min-width: 520px) {
+  .masthead__heading {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .masthead__heading picture {
+    flex-basis: 70%;
+  }
+
+  .header-container #menu, .header-container label {
+    display: none;
+  }
+  .header-container ul {
+    transform: none;
+    position: initial;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav-lists li {
+    margin-block: 0;
+    padding-block: 0;
+  }
+}
 .project-lists {
   padding: 0;
 }
