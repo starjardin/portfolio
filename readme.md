@@ -1,4 +1,4 @@
-## what I need in my portfolio.
+## Portfolio.
 1. Photograph (finished)
 2. country quiz (need to check)
 3. bitrthday app. (need some work)

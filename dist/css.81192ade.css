@@ -75,6 +75,9 @@ img {
 .masthead__heading img {
   border-radius: 50%;
 }
+.masthead__heading .profile-desc {
+  text-align: center;
+}
 
 .main__heading {
   margin-block: 0px;
@@ -117,6 +120,25 @@ a:visited {
   color: #000;
 }
 
+.profile {
+  transition: 0.4s;
+  cursor: zoom-in;
+}
+
+.profile.open {
+  cursor: zoom-out;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 10%;
+  right: 0;
+  border-radius: 2px;
+  width: 90vw;
+  transform-origin: top;
+  z-index: 3;
+}
+
 @media (min-width: 520px) {
   .masthead__heading {
     display: flex;
@@ -130,6 +152,11 @@ a:visited {
   .masthead__heading,
 .main__heading {
     font-size: 36px;
+  }
+
+  .profile.open {
+    top: 10%;
+    width: 50vw;
   }
 }
 .header-container ul {
@@ -231,6 +258,10 @@ a:visited {
 
 p {
   color: #111111;
+}
+
+.section__desc {
+  padding-bottom: 5rem;
 }
 
 .project-lists {
