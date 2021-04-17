@@ -126,6 +126,11 @@ a:visited {
   .masthead__heading picture {
     flex-basis: 70%;
   }
+
+  .masthead__heading,
+.main__heading {
+    font-size: 36px;
+  }
 }
 .header-container ul {
   transform: translateX(-220%);
@@ -217,6 +222,11 @@ a:visited {
   font-size: 1.65em;
   line-height: 1em;
   margin-bottom: 2em;
+}
+
+.services {
+  color: #ab2537fa;
+  text-transform: uppercase;
 }
 
 p {
