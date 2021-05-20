@@ -1,7 +1,6 @@
 .footer {
   padding-block: 4rem;
   border-top: 1px solid #111111;
-  border-bottom: 1px solid #111111;
   line-height: 32px;
   text-align: center;
   margin-bottom: 2rem;
@@ -17,7 +16,7 @@
   margin: 0 1rem;
   margin-bottom: 1rem;
   min-width: 10rem;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
   background-image: url('../icons/arrow-narrow-right-black.svg');
   background-position: 100% center;
   background-size: 50% 50%;
