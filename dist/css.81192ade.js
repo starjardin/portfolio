@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -144,12 +144,12 @@ function getBundleURL() {
 }
 
 function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)?\/[^/]+(?:\?.*)?$/, '$1') + '/';
 }
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel/src/builtins/bundle-url.js"}],"css/index.scss":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/index.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Poppins-400.woff":[["Poppins-400.e935a4bb.woff","fonts/Poppins-400.woff"],"fonts/Poppins-400.woff"],"./..\\fonts\\Poppins-300.woff":[["Poppins-300.af955319.woff","fonts/Poppins-300.woff"],"fonts/Poppins-300.woff"],"./..\\fonts\\Poppins-500.woff":[["Poppins-500.6db15a2e.woff","fonts/Poppins-500.woff"],"fonts/Poppins-500.woff"],"./..\\fonts\\Poppins-Black.woff":[["Poppins-Black.ab7e5651.woff","fonts/Poppins-Black.woff"],"fonts/Poppins-Black.woff"],"./..\\fonts\\Poppins-400.woff2":[["Poppins-400.e54b5641.woff2","fonts/Poppins-400.woff2"],"fonts/Poppins-400.woff2"],"./..\\fonts\\Poppins-300.woff2":[["Poppins-300.36d95eb5.woff2","fonts/Poppins-300.woff2"],"fonts/Poppins-300.woff2"],"./..\\fonts\\Poppins-500.woff2":[["Poppins-500.7026f120.woff2","fonts/Poppins-500.woff2"],"fonts/Poppins-500.woff2"],"./..\\fonts\\Poppins-Black.woff2":[["Poppins-Black.88cd5be7.woff2","fonts/Poppins-Black.woff2"],"fonts/Poppins-Black.woff2"],"./..\\fonts\\Heebo-800.woff":[["Heebo-800.5a6ed6b6.woff","fonts/Heebo-800.woff"],"fonts/Heebo-800.woff"],"./..\\fonts\\Heebo-800.woff2":[["Heebo-800.f8706882.woff2","fonts/Heebo-800.woff2"],"fonts/Heebo-800.woff2"],"./..\\icons\\menu.svg":[["menu.3c813992.svg","icons/menu.svg"],"icons/menu.svg"],"./..\\icons\\close.svg":[["close.1a8adba6.svg","icons/close.svg"],"icons/close.svg"],"./..\\icons\\arrow-narrow-right.svg":[["arrow-narrow-right.7b1b8e5f.svg","icons/arrow-narrow-right.svg"],"icons/arrow-narrow-right.svg"],"./..\\icons\\arrow-narrow-right-black.svg":[["arrow-narrow-right-black.84cb72a4.svg","icons/arrow-narrow-right-black.svg"],"icons/arrow-narrow-right-black.svg"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../fonts/Poppins-400.woff":[["Poppins-400.e935a4bb.woff","fonts/Poppins-400.woff"],"fonts/Poppins-400.woff"],"./../fonts/Poppins-300.woff":[["Poppins-300.af955319.woff","fonts/Poppins-300.woff"],"fonts/Poppins-300.woff"],"./../fonts/Poppins-500.woff":[["Poppins-500.6db15a2e.woff","fonts/Poppins-500.woff"],"fonts/Poppins-500.woff"],"./../fonts/Poppins-Black.woff":[["Poppins-Black.ab7e5651.woff","fonts/Poppins-Black.woff"],"fonts/Poppins-Black.woff"],"./../fonts/Poppins-400.woff2":[["Poppins-400.e54b5641.woff2","fonts/Poppins-400.woff2"],"fonts/Poppins-400.woff2"],"./../fonts/Poppins-300.woff2":[["Poppins-300.36d95eb5.woff2","fonts/Poppins-300.woff2"],"fonts/Poppins-300.woff2"],"./../fonts/Poppins-500.woff2":[["Poppins-500.7026f120.woff2","fonts/Poppins-500.woff2"],"fonts/Poppins-500.woff2"],"./../fonts/Poppins-Black.woff2":[["Poppins-Black.88cd5be7.woff2","fonts/Poppins-Black.woff2"],"fonts/Poppins-Black.woff2"],"./../fonts/Heebo-800.woff":[["Heebo-800.5a6ed6b6.woff","fonts/Heebo-800.woff"],"fonts/Heebo-800.woff"],"./../fonts/Heebo-800.woff2":[["Heebo-800.f8706882.woff2","fonts/Heebo-800.woff2"],"fonts/Heebo-800.woff2"],"./../icons/menu.svg":[["menu.3c813992.svg","icons/menu.svg"],"icons/menu.svg"],"./../icons/close.svg":[["close.1a8adba6.svg","icons/close.svg"],"icons/close.svg"],"./../icons/arrow-narrow-right.svg":[["arrow-narrow-right.7b1b8e5f.svg","icons/arrow-narrow-right.svg"],"icons/arrow-narrow-right.svg"],"./../icons/arrow-narrow-right-black.svg":[["arrow-narrow-right-black.84cb72a4.svg","icons/arrow-narrow-right-black.svg"],"icons/arrow-narrow-right-black.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60186" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46625" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/css.81192ade.js.map
